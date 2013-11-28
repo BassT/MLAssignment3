@@ -1,8 +1,6 @@
-function [ training_means ] = computeMeans( training, target )
+function [ training_means ] = computeMeans( training_face, training_none_face )
 %computeMeans computes means distinguishing betweens 2 classes
-%   NOT WORKING - BassT (27.11.2013)
-
-[training_face, training_none_face] = splitTraining(training, target);
+%   TESTED - BassT (27.11.2013)
 
 training_means = zeros(2,361);
 
