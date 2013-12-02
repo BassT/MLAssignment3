@@ -2,8 +2,8 @@ function [ training_face, training_non_face ] = splitTraining( training_data, ta
 %splitTraining splits a training data vector with two classes
 %   TESTED - BassT (27.11.2013)
 
-training_face = zeros(2265,361);
-training_non_face = zeros(1215,361);
+training_face = zeros(1215,361);
+training_non_face = zeros(2265,361);
 
 face_index = 1;
 none_face_index = 1;
