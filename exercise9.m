@@ -2,7 +2,7 @@ tic;
 load('train.mat');
 class = zeros(size(traint,1),1);
 error = 0;
-w_new = ones(361,1);
+w_new = zeros(361,1);
 
 for i = 1:35 % 100-fold cross-validation
     

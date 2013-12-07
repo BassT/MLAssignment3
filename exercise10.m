@@ -18,8 +18,8 @@ for i = 1:34 % 100-fold cross-validation
         end
     end
     
-    disp(strcat('i:', num2str(i)));
-    toc;
+%     disp(strcat('i:', num2str(i)));
+%     toc;
     
 end
 

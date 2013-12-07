@@ -21,10 +21,10 @@ for i = 1:size(trainx, 1) % loop through each training sample - cross-validation
         error = error + 1;
     end
     
-    if (mod(i,100) == 0)
-        disp(strcat('i: ', num2str(i)));
-        toc;
-    end
+%     if (mod(i,100) == 0)
+%         disp(strcat('i: ', num2str(i)));
+%         toc;
+%     end
     
 end
 
