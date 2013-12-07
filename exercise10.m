@@ -1,4 +1,4 @@
-addpath D:\Programme\MATLAB\R2012b\toolbox\libsvm
+addpath /Applications/MATLAB_R2012b.app/toolbox/libsvm
 load('train.mat');
 error = 0;
 tic;
